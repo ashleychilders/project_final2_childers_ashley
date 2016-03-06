@@ -1,6 +1,31 @@
 @font-face {
-    font-family: NellaSue;
-    src: url (font/NellaSueDEMO.ttf);
+    font-family: HighlandGothic;
+    src: url (font/HighlandGothicFLF-Bold.ttf);
+}
+
+@font-face {
+    font-family: HighlandGothicRegular;
+    src: url (font/HighlandGothicFLF.ttf);
+}
+
+@font-face {
+    font-family: HighlandGothicLight;
+    src: url (font/HighlandGothicLightFLF.ttf);
+}
+
+@font-face {
+    font-family: SansationRegular;
+    src: url (font/Sansation_Regular.ttf);
+}
+
+@font-face {
+    font-family: SansationItalic;
+    src: url (font/Sansation_Italic.ttf);
+}
+
+@font-face {
+    font-family: SansationBold;
+    src: url (font/Sansation_Bold.ttf);
 }
 
 body {
