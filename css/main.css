@@ -1,0 +1,9 @@
+@font-face {
+    font-family: NellaSue;
+    src: url (font/NellaSueDEMO.ttf);
+}
+
+body {
+    background-image: url (images/papertexture.png);
+    background-repeat: repeat;
+}
