@@ -1,3 +1,13 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after{
+    box-sizing: inherit;
+}
+
 @font-face {
     font-family: HighlandGothic;
     src: url (font/HighlandGothicFLF-Bold.ttf);
@@ -29,10 +39,17 @@
 }
 
 body {
-    background-image: url (img/background.jpg);
-    background-repeat: repeat;
+    background-color: #191970;
 }
 
+#logo {
+    background-color: #ffffff;
+    margin-left: 30px;
+    padding-left: 20px;
+    width: 75%;
+    height: 75%;
+
+}
 .btn {
     background: #993300;
     background-image: -webkit-linear-gradient(top, #993300, #993300);
