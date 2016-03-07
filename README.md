@@ -5,10 +5,10 @@ https://github.com/ashleychilders/hw_mq_childers_ashley
 
 -  http://css3buttongenerator.com/
 	- I used this site to help with creating my nav buttons.
-- https://css-tricks.com/css-media-queries/
-    - I came across this article when doing additional research about media queries. It was helpful with understanding media query formatting in CSS.
-- http://www.w3schools.com/css/css_rwd_mediaqueries.asp
-    - I came across this when searching for ways to properly word media queries and used the format found on here to format mine.
+- http://www.w3schools.com/colors/colors_hex.asp
+    - I used this site to choose colors for my website.
+- http://pixar.wikia.com/wiki/Pizza_Planet
+    - I used this site for content for Pizza Planet (images and text).
 
 **Comments**
 
