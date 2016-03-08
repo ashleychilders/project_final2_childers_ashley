@@ -13,6 +13,12 @@ body {
     background-color: #191970;
 }
 
+#banner img {
+    width: 100%;
+    border-radius: 2em;
+    height: auto;
+}
+
 .max {
     max-width: 1200px;
 }
@@ -67,12 +73,13 @@ body {
 }
 @media (min-width: 900px) {
     #about {
-        padding: 1em;
+        padding: 2em;
     }
 
     #content {
         float: right;
         margin-top: 1em;
+        margin-right: 1em;
         margin-bottom: 1em;
         width: calc(100% / 3 * 2);
     }
@@ -80,6 +87,7 @@ body {
     #sidebar {
         float: left;
         margin-top: 1em;
+        padding: 1em;
         width: calc(100% / 3 - 1.5em);
     }
 }
@@ -87,7 +95,9 @@ body {
     .btn {
         display: inline;
         margin-left: 1.3em;
-        margin-bottom: 1em;
+        margin-top: 1em;
+        padding: 2em;
+        margin-bottom: 3em;
     }
 }
 
@@ -153,7 +163,7 @@ nav ul li a {
     background-image: linear-gradient(to bottom, #dc143c, #ff8c00);
 }
 
-#pizzaplanetbldg, #pizzaplanetinside, #alienslime {
+#whackalien, #pizzaplanetinside, #alienslime {
     width: 95%;
     height: 95%;
     border-radius: 2em;
