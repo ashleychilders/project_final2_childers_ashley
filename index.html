@@ -12,12 +12,12 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <div id="wrapper">
-        <header id="header">
-            <div id="logo">
-            <img src="img/pizzaplanetlogo.png" alt="logo" id="pizzaplanet" title="logo"/>
+    <div id="page" class="max">
+        <header id="header" class="max">
+            <div id="logo" class="max">
+            <img src="img/pizzaplanetlogo.png" class ="max" alt="pizzalogo" id="pizzaplanet" title="pizzalogo"/>
             </div>
-            <nav id="menu">
+            <nav id="menu" class ="max">
                 <ul>
                     <li class="btn"><a href="#">Menu</a></li>
                     <li class="btn"><a href="#">Specials</a></li>
@@ -27,7 +27,7 @@
             </nav>
         </header>
     </div>
-    <div id="main">
+    <main id ="content">
         <article id="about">
             <h1>You've landed at Pizza Planet!</h1>
             <h2>Learn more about us and our pizza!</h2>
@@ -43,23 +43,25 @@
             </div>
         </article>
         <article id="events">
-            <img src="img/pizzaplanet.jpg" alt="pizzaplanet" id="pizzaplanetbldg" title="pizzaplanet"/>
-            <img src="img/pizzaplanetinside.png" alt="pizzaplanetinside" id="pizzaplanetinside" title="pizzaplanetinside"/>
-            <img src="img/alienslime.jpg" alt="alienslime" id="alienslime" title="alienslime"/>
+            <ul>
+                <li><img src="img/pizzaplanet.jpg" alt="pizzaplanet" id="pizzaplanetbldg" title="pizzaplanet"/></li>
+                <li><img src="img/pizzaplanetinside.png" alt="pizzaplanetinside" id="pizzaplanetinside" title="pizzaplanetinside"/></li>
+                <li><img src="img/alienslime.jpg" alt="alienslime" id="alienslime" title="alienslime"/></li>
+            </ul>
         </article>
-        <aside id="specials">
-            <h2>Weekly Specials</h2>
-            <h3>Monday Meatball Pizza</h3>
-            <h3>Tuesday Two for One</h3>
-            <h3>Wednesday Wing Night</h3>
-            <h3>Thursday Taco Pizza Night</h3>
-            <h3>Friday Feast- Pizza Buffet</h3>
-            <h3>Saturday Sausage Pizza</h3>
-            <h3>Sunday Funday- Kids Eat Free</h3>
-        </aside>
+    </main>
+    <aside id="sidebar">
+        <h2>Weekly Specials</h2>
+        <h3>Monday Meatball Pizza</h3>
+        <h3>Tuesday Two for One</h3>
+        <h3>Wednesday Wing Night</h3>
+        <h3>Thursday Taco Pizza Night</h3>
+        <h3>Friday Feast- Pizza Buffet</h3>
+        <h3>Saturday Sausage Pizza</h3>
+        <h3>Sunday Funday- Kids Eat Free</h3>
+    </aside>
         <footer id="footer">
         </footer>
-    </div>
 
     <script src="js/main.js"></script>
 </body>

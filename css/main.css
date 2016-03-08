@@ -8,14 +8,16 @@ html {
     box-sizing: inherit;
 }
 
+
 body {
     background-color: #191970;
 }
 
+.max {
+    max-width: 1200px;
+}
+
 #logo {
-    width: 100%;
-    height: auto;
-    padding-left: 1.5em;
     margin-top: 1.5em;
     background-color: #ffffff;
 }
@@ -28,6 +30,54 @@ body {
 
 #about {
     background-color: #ffffff;
+    border-radius: 3em;
+}
+
+#sidebar {
+    background-color: #ffffff;
+    border-radius: 3em;
+    text-align: center;
+}
+
+#events ul li {
+    list-style: none;
+    border-radius: 3em;
+}
+
+@media (min-width: 800px) {
+    #pizzaplanet {
+        width: 25%;
+        height: 25%;
+    }
+}
+@media (min-width: 900px) {
+    #about {
+        padding: 1em;
+    }
+
+    #events ul li {
+        display: block;
+    }
+
+    #content {
+        float: right;
+        margin-top: 1em;
+        width: calc(100% / 3 * 2);
+    }
+
+    #sidebar {
+        float: left;
+        margin-top: 1em;
+        width: calc(100% / 3 - 1.5em);
+    }
+}
+@media (min-width: 800px) {
+    .btn {
+        display: inline;
+        width: 10em;
+        padding: 2em;
+        margin-left: 1.5em;
+    }
 }
 
 h1 {
@@ -48,11 +98,6 @@ h3 {
     font-family: 'Roboto Slab', serif;
     color: #696969;
     font-size: 0.8em;
-    padding-left: 2em;
-}
-
-#specials {
-    background-color: #ffffff;
 }
 
 p {
@@ -65,12 +110,12 @@ p {
 nav ul li a {
     color: #ffffff;
     text-decoration: none;
-    padding-left: 1.5em;
-    margin: auto;
+    text-align: center;
 }
 
 .btn {
     font-family: 'Roboto Slab', serif;
+    text-align: center;
     font-size: 1em;
     width: 9.5em;
     -webkit-border-radius: 28;
@@ -80,7 +125,7 @@ nav ul li a {
     -moz-box-shadow: 0em 0.3em 1em #666666;
     box-shadow: 0em 0.3em 1em #666666;
     background: #dc143c;
-    padding: 0.6em 1em 0.6em 1em;
+    padding: 0.5em 1em 0.5em 1em;
     border: solid #ffffff 0.2em;
     text-decoration: none;
 }
@@ -98,4 +143,11 @@ nav ul li a {
     width: 95%;
     height: 95%;
     padding-left: 1em;
+}
+
+@media all and (min-width 600px) {
+    #events {
+        display: inline-block;
+        width: calc(100% / 4);
+    }
 }
