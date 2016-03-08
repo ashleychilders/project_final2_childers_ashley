@@ -17,11 +17,6 @@ body {
     max-width: 1200px;
 }
 
-#logo {
-    margin-top: 1.5em;
-    background-color: #ffffff;
-}
-
 #pizzaplanet {
     margin: auto;
     width: 47%;
@@ -41,22 +36,17 @@ body {
 
 #events ul li {
     list-style: none;
-    border-radius: 3em;
 }
 
 @media (min-width: 800px) {
     #pizzaplanet {
-        width: 25%;
-        height: 25%;
+        width: 30%;
+        height: 30%;
     }
 }
 @media (min-width: 900px) {
     #about {
         padding: 1em;
-    }
-
-    #events ul li {
-        display: block;
     }
 
     #content {
@@ -74,9 +64,8 @@ body {
 @media (min-width: 800px) {
     .btn {
         display: inline;
-        width: 10em;
-        padding: 2em;
-        margin-left: 1.5em;
+        margin-left: 1.3em;
+        margin-bottom: 1em;
     }
 }
 
@@ -110,16 +99,16 @@ p {
 nav ul li a {
     color: #ffffff;
     text-decoration: none;
-    text-align: center;
 }
 
 .btn {
     font-family: 'Roboto Slab', serif;
-    text-align: center;
     font-size: 1em;
-    width: 9.5em;
+    width: 14em;
+    text-align: center;
     -webkit-border-radius: 28;
     -moz-border-radius: 28;
+    margin-top: 0.3em;
     border-radius: 28px;
     -webkit-box-shadow: 0em 0.3em 1em #666666;
     -moz-box-shadow: 0em 0.3em 1em #666666;
@@ -142,12 +131,5 @@ nav ul li a {
 #pizzaplanetbldg, #pizzaplanetinside, #alienslime {
     width: 95%;
     height: 95%;
-    padding-left: 1em;
-}
-
-@media all and (min-width 600px) {
-    #events {
-        display: inline-block;
-        width: calc(100% / 4);
-    }
+    border-radius: 2em;
 }
