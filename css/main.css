@@ -8,8 +8,8 @@ html {
     box-sizing: inherit;
 }
 
-.site-container  {
-    width: 1200 px;
+.site-container {
+    max-width: 1200px;
 }
 
 body {
@@ -26,10 +26,14 @@ body {
     max-width: 1200px;
 }
 
+#menu-wrapper {
+    align-content: center;
+}
+
 #pizzaplanet {
     margin: auto;
-    width: 47%;
-    height: 47%;
+    width: 45%;
+    height: 45%;
 }
 
 #about {
@@ -56,8 +60,9 @@ body {
 
 #photos {
     margin-top: 0.5em;
-    background-color: #ffffff;
+    background-color: #ba2be2;
     padding: 0.3em;
+    border-radius: 3em;
 }
 
 #photos ul li {
@@ -65,7 +70,6 @@ body {
 }
 
 #photos h2 {
-    background-color: #ba2be2;
     color: #ffffff;
     padding: 0.4em;
     text-align: center;
