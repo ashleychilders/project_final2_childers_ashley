@@ -26,16 +26,37 @@ body {
 #about {
     background-color: #ffffff;
     border-radius: 3em;
+    padding: 0.1em 1.5em 0.1em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    margin-left: 0.3em;
+    margin-right: 0.3em;
 }
 
-#sidebar {
+#section1 {
     background-color: #ffffff;
     border-radius: 3em;
     text-align: center;
+    margin-left: 1em;
+    padding: 0.1em 1.5em 0.1em;
 }
 
-#events ul li {
+#photos ul li {
     list-style: none;
+}
+
+#contact h2 {
+    color: #ffffff;
+    text-align: center;
+}
+
+#contact {
+    background-color: #ff8c00;
+    border-radius: 5em;
+    margin-left: 0.3em;
+    margin-right: 0.3em;
+    padding: 0.2em;
+    margin-top: 1em;
 }
 
 @media (min-width: 800px) {
@@ -52,6 +73,7 @@ body {
     #content {
         float: right;
         margin-top: 1em;
+        margin-bottom: 1em;
         width: calc(100% / 3 * 2);
     }
 
@@ -72,14 +94,12 @@ body {
 h1 {
     font-family: 'Roboto Slab', serif;
     color: #696969;
-    padding-left: 2em;
     font-size: 1.3em;
 }
 
 h2 {
     font-family: 'Roboto Slab', serif;
     color: #696969;
-    padding-left: 2em;
     font-size: 1.1em;
 }
 
@@ -92,8 +112,13 @@ h3 {
 p {
     font-family: 'Droid Sans', sans-serif;
     color: #696969;
-    padding: 0.5em 2em 0.3em 2em;
     font-size: 0.9em;
+}
+
+#contact p {
+    color: #ffffff;
+    text-align: center;
+    padding-top: 0.1em;
 }
 
 nav ul li a {
