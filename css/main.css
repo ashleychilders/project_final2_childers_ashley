@@ -3,11 +3,14 @@ html {
 }
 
 *,
-*:before,
-*:after {
+*: before,
+*: after {
     box-sizing: inherit;
 }
 
+.site-container  {
+    width: 1200 px;
+}
 
 body {
     background-color: #191970;
@@ -47,8 +50,25 @@ body {
     padding: 0.1em 1.5em 0.1em;
 }
 
+#section1 h2 {
+    color: #ff8c00;
+}
+
+#photos {
+    margin-top: 0.5em;
+    background-color: #ffffff;
+    padding: 0.3em;
+}
+
 #photos ul li {
     list-style: none;
+}
+
+#photos h2 {
+    background-color: #ba2be2;
+    color: #ffffff;
+    padding: 0.4em;
+    text-align: center;
 }
 
 #contact h2 {
@@ -71,9 +91,9 @@ body {
         height: 30%;
     }
 }
-@media (min-width: 900px) {
+@media (min-width: 800px) {
     #about {
-        padding: 2em;
+        padding: 1em;
     }
 
     #content {
@@ -87,18 +107,21 @@ body {
     #sidebar {
         float: left;
         margin-top: 1em;
-        padding: 1em;
-        width: calc(100% / 3 - 1.5em);
+        padding: 0.4em;
+        width: calc(100% / 3 - 2em);
     }
-}
-@media (min-width: 800px) {
+
     .btn {
         display: inline;
         margin-left: 1.3em;
         margin-top: 1em;
         padding: 2em;
-        margin-bottom: 3em;
     }
+
+    #menu {
+        margin-bottom: 2em;
+    }
+
 }
 
 h1 {
@@ -166,5 +189,5 @@ nav ul li a {
 #whackalien, #pizzaplanetinside, #alienslime {
     width: 95%;
     height: 95%;
-    border-radius: 2em;
+    border-radius: 1em;
 }
