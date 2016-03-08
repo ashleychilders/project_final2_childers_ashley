@@ -44,6 +44,17 @@ h2 {
     font-size: 1.1em;
 }
 
+h3 {
+    font-family: 'Roboto Slab', serif;
+    color: #696969;
+    font-size: 0.8em;
+    padding-left: 2em;
+}
+
+#specials {
+    background-color: #ffffff;
+}
+
 p {
     font-family: 'Droid Sans', sans-serif;
     color: #696969;
@@ -59,7 +70,7 @@ nav ul li a {
 }
 
 .btn {
-    font-family: 'Droid Sans', sans-serif;
+    font-family: 'Roboto Slab', serif;
     font-size: 1em;
     width: 9.5em;
     -webkit-border-radius: 28;
