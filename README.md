@@ -10,12 +10,12 @@ https://github.com/ashleychilders/hw_mq_childers_ashley
 - http://pixar.wikia.com/wiki/Pizza_Planet
     - I used this site for content for Pizza Planet (images and text).
 -http://www.w3schools.com/css/css_padding.asp
-	-Always use this site for refresher on combining padding. 
+	-Always use this site for refresher on combining padding.
 
 **Comments**
 
-1.) With this assignment I felt really comfortable using git. Compared to last week, I completed this assignment much faster and I think it has to do with understanding git better.
+1.) We spoke in class about the error in my css for "background-image" being duplicated on my button gradients.
 
-2.) This is the first course in the program that has touched on how to set up a site with responsive design which I am very, very interested in as all web designers should be.  
+2.) With my style prototype I wanted to incorporate somewhat realistic text elements to the restuarant to get a better look and feel for how the content will work.
 
-3.) I debated on whether to add screen after media or leave it blank, I decided to go with "@media only screen and".
+3.) I incorporated colors through borders and backrounds in elements.  
