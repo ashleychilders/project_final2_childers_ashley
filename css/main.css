@@ -22,10 +22,6 @@ body {
     height: auto;
 }
 
-.max {
-    max-width: 1200px;
-}
-
 h1 {
     font-family: 'Roboto Slab', serif;
     color: #696969;
@@ -41,7 +37,9 @@ h2 {
 h3 {
     font-family: 'Droid Sans', sans-serif;
     color: #696969;
-    font-size: 0.9em;
+    font-size: 1em;
+    font-style: normal;
+    padding: 0;
 }
 
 p {
@@ -98,7 +96,18 @@ nav ul li a {
     height: 40%;
 }
 
-#about, #food {
+#about {
+    background-color: #ffffff;
+    border: solid #4169e1 0.3em;
+    border-radius: 3em;
+    padding: 0.1em 1.5em 0.1em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    margin-left: 0.3em;
+    margin-right: 0.3em;
+}
+
+#food {
     background-color: #ffffff;
     border: solid #4169e1 0.3em;
     border-radius: 3em;
@@ -112,6 +121,11 @@ nav ul li a {
 #about a {
     text-decoration: none;
     color: #4169e1;
+}
+
+#about a:hover {
+    color: #ffffff;
+    background-color: #4169e1;
 }
 
 #food {
@@ -129,6 +143,7 @@ nav ul li a {
     text-align: center;
     margin-left: 1em;
     padding: 0.1em 1.5em 0.1em;
+    margin-right: 0.3em;
 }
 
 #section1 h2 {
@@ -138,8 +153,9 @@ nav ul li a {
 #photos {
     margin-top: 0.5em;
     background-color: #ba2be2;
-    padding: 0.3em;
     border-radius: 3em;
+    margin-left: 1em;
+    margin-right: 0.3em;
     border: solid #ff8c00 0.3em;
 }
 
@@ -162,7 +178,7 @@ nav ul li a {
     background-color: #ff8c00;
     border: solid #ba2be2 0.3em;
     border-radius: 5em;
-    margin-left: 0.3em;
+    margin-left: 1em;
     margin-right: 0.3em;
     padding: 0.2em;
     margin-top: 1em;
@@ -176,6 +192,11 @@ nav ul li a {
         margin-top: 1em;
         padding: 0.2em 3em 0.2em 3em;
     }
+
+    #photos h2 {
+        font-size: 98%;
+    }
+
 }
 
 @media (min-width: 800px) {
@@ -209,9 +230,12 @@ nav ul li a {
 
 }
 
-#whackalien, #pizzaplanetinside, #alienslime {
+#whackalien,
+#pizzaplanetinside,
+#alienslime {
     width: 95%;
     height: 95%;
+    align-content: center;
     border-radius: 0.8em;
     border: solid #333333 0.1em;
 }
