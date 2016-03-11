@@ -10,7 +10,7 @@ https://github.com/ashleychilders/project_final2_childers_ashley
 - http://pixar.wikia.com/wiki/Pizza_Planet
     - I used this site for content for Pizza Planet (images and text).
 - http://www.w3schools.com/css/css_padding.asp
-	-Always use this site for refresher on combining padding.
+	- Always use this site for refresher on combining padding.
 
 
 **Comments**
