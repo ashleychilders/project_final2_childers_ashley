@@ -1,6 +1,9 @@
 ## Link to Assignment on GitHub
 https://github.com/ashleychilders/project_final2_childers_ashley
 
+## Link to Assignment online
+https://ashley-childers.com/planetpizza
+
 ### Resources
 
 -  http://css3buttongenerator.com/
@@ -13,7 +16,7 @@ https://github.com/ashleychilders/project_final2_childers_ashley
 	- Always use this site for refresher on combining padding.
 - http://www.lynda.com/HTML-tutorials/Using-CSS-media-queries/76334/87300-4.html
 	- I watched a few videos and lessons on Lynda.com about adding media queries just to get a better understanding.
-	
+
 **Comments**
 
 1.) We spoke in class about the error in my css for "background-image" being duplicated on my button gradients.
