@@ -23,6 +23,8 @@ http://ashley-childers.com/pizzaplanet/
 
 2.) With my style prototype I wanted to incorporate somewhat realistic text elements to the restaurant to get a better look and feel for how the content will work.
 
-3.) I incorporated colors through borders and backgrounds in content sections on my site.  
+3.) I added a max width to my container to keep the text and content from expanding too large. 
 
-4.) I felt so much more comfortable building a responsive site as opposed to converting a site to responsive (last assignment). Media-queries are new to me, just learning about them in this course but I think I am getting the hang of it.
+4.) I incorporated colors through borders and backgrounds in content sections on my site.  
+
+5.) I felt so much more comfortable building a responsive site as opposed to converting a site to responsive (last assignment). Media-queries are new to me, just learning about them in this course but I think I am getting the hang of it.
