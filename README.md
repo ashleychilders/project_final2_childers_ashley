@@ -11,8 +11,9 @@ https://github.com/ashleychilders/project_final2_childers_ashley
     - I used this site for content for Pizza Planet (images and text).
 - http://www.w3schools.com/css/css_padding.asp
 	- Always use this site for refresher on combining padding.
-
-
+- http://www.lynda.com/HTML-tutorials/Using-CSS-media-queries/76334/87300-4.html
+	- I watched a few videos and lessons on Lynda.com about adding media queries just to get a better understanding.
+	
 **Comments**
 
 1.) We spoke in class about the error in my css for "background-image" being duplicated on my button gradients.
