@@ -90,7 +90,7 @@ nav ul li a {
 }
 
 
-#pizzaplanet {
+#logo {
     margin: auto;
     width: 40%;
     height: 40%;
@@ -192,6 +192,12 @@ nav ul li a {
 }
 
 @media (min-width: 700px) {
+    #content,
+    #sidebar {
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+
     .btn {
         display: inline;
         margin-left: 0.1em;
@@ -216,6 +222,12 @@ nav ul li a {
 }
 
 @media (min-width: 850px) {
+    #content,
+    #sidebar {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
     .btn {
         display: inline;
         margin-left: 1em;
@@ -228,7 +240,7 @@ nav ul li a {
         font-size: 110%;
     }
 
-    #pizzaplanet {
+    #logo {
         width: 28%;
         height: 28%;
     }
