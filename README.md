@@ -2,7 +2,7 @@
 https://github.com/ashleychilders/project_final2_childers_ashley
 
 ## Link to Assignment online
-https://ashley-childers.com/planetpizza
+http://ashley-childers.com/pizzaplanet/
 
 ### Resources
 
