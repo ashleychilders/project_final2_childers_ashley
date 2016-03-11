@@ -50,6 +50,11 @@ p {
 #contact p {
     color: #ffffff;
     text-align: center;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
 }
 
 nav ul li a {
@@ -84,9 +89,6 @@ nav ul li a {
     background-image: linear-gradient(to bottom, #dc143c, #ff8c00);
 }
 
-#menu-wrapper {
-    align-content: center;
-}
 
 #pizzaplanet {
     margin: auto;
@@ -101,8 +103,8 @@ nav ul li a {
     padding: 0.1em 1.5em 0.1em;
     margin-bottom: 1em;
     margin-top: 1em;
-    margin-left: 0.3em;
-    margin-right: 0.3em;
+    margin-left: 1em;
+    margin-right: 1em;
 }
 
 #food {
@@ -112,8 +114,9 @@ nav ul li a {
     padding: 0.1em 1.5em 0.1em;
     margin-bottom: 1em;
     margin-top: 1em;
-    margin-left: 0.3em;
-    margin-right: 0.3em;
+    margin-left: 1em;
+    margin-right: 1em;
+    text-align: center;
 }
 
 #about a {
@@ -126,35 +129,31 @@ nav ul li a {
     background-color: #4169e1;
 }
 
-#food {
-    text-align: center;
-}
-
 #food h1,
-#section1 h1 {
+#weekly h1 {
     color: #ff8c00;
 }
 
-#section1 {
+#weekly {
     background-color: #ffffff;
     border-radius: 3em;
     border: solid #4169e1 0.3em;
     text-align: center;
     margin-left: 1em;
     padding: 0.1em 1.5em 0.1em;
-    margin-right: 0.3em;
+    margin-right: 1em;
 }
 
-#section1 h2 {
+#weekly h2 {
     color: #ff8c00;
 }
 
 #photos {
     margin-top: 0.5em;
+    margin-left: 1em;
+    margin-right: 1em;
     background-color: #ba2be2;
     border-radius: 3em;
-    margin-left: 1em;
-    margin-right: 0.3em;
     border: solid #ff8c00 0.3em;
 }
 
@@ -164,8 +163,17 @@ nav ul li a {
 
 #photos h2 {
     color: #ffffff;
-    padding: 0.4em;
     text-align: center;
+    padding: 0.4em;
+}
+
+#whackalien,
+#pizzaplanetinside,
+#alienslime {
+    width: 95%;
+    height: 95%;
+    border-radius: 0.8em;
+    border: solid #333333 0.1em;
 }
 
 #contact h2 {
@@ -177,8 +185,8 @@ nav ul li a {
     background-color: #ff8c00;
     border: solid #ba2be2 0.3em;
     border-radius: 5em;
-    margin-left: 1em;
-    margin-right: 0.3em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
     padding: 0.2em;
     margin-top: 1em;
 }
@@ -186,14 +194,23 @@ nav ul li a {
 @media (min-width: 700px) {
     .btn {
         display: inline;
-        margin-left: 0.3em;
-        margin-right: 0.3em;
+        margin-left: 0.1em;
+        margin-right: 0.1em;
         margin-top: 1em;
         padding: 0.2em 3em 0.2em 3em;
     }
 
     #photos h2 {
-        font-size: 98%;
+        font-size: 90%;
+    }
+
+    #photos ul li {
+        width: 95%;
+        margin: auto;
+    }
+
+    #sidebar {
+        margin-left: 1em;
     }
 
 }
@@ -228,9 +245,14 @@ nav ul li a {
         width: calc(100% / 3 * 2);
     }
 
+    #photos h2 {
+        font-size: 85%;
+    }
+
     #sidebar {
         float: left;
         margin-top: 1em;
+        margin-left: 1em;
         width: calc(100% / 3 - 2em);
     }
 
@@ -238,13 +260,4 @@ nav ul li a {
         margin-bottom: 2em;
     }
 
-}
-
-#whackalien,
-#pizzaplanetinside,
-#alienslime {
-    width: 95%;
-    height: 95%;
-    border-radius: 0.8em;
-    border: solid #333333 0.1em;
 }
