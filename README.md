@@ -23,7 +23,7 @@ http://ashley-childers.com/pizzaplanet/
 
 2.) With my style prototype I wanted to incorporate somewhat realistic text elements to the restaurant to get a better look and feel for how the content will work.
 
-3.) I added a max width to my container to keep the text and content from expanding too large. 
+3.) I added a max-width to my container to keep the text and content from expanding too large.
 
 4.) I incorporated colors through borders and backgrounds in content sections on my site.  
 

@@ -85,7 +85,8 @@ nav ul li a {
 
 
 #pizzaplanet {
-    margin: auto;
+    margin-top: 1em;
+    margin-left: 1em;
     width: 50%;
     height: 50%;
 }
@@ -262,6 +263,12 @@ nav ul li a {
 
     #menu {
         margin-bottom: 2em;
+    }
+
+    #photos ul li {
+        width: 98%;
+        height: auto;
+        margin: auto;
     }
 
 }
