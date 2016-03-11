@@ -34,13 +34,6 @@ h2 {
     font-size: 1.2em;
 }
 
-h3 {
-    font-family: 'Droid Sans', sans-serif;
-    color: #696969;
-    font-size: 1em;
-    font-style: normal;
-}
-
 p {
     font-family: 'Droid Sans', sans-serif;
     color: #696969;
@@ -165,7 +158,8 @@ nav ul li a {
 #photos h2 {
     color: #ffffff;
     text-align: center;
-    padding: 0.4em;
+    padding: 0.3em;
+    font: 102%;
 }
 
 #whackalien,
@@ -210,10 +204,6 @@ nav ul li a {
         margin-right: 0.1em;
         margin-top: 1em;
         padding: 0.2em 2.5em 0.2em 2.5em;
-    }
-
-    #photos h2 {
-        font-size: 90%;
     }
 
     #photos ul li {
@@ -261,10 +251,6 @@ nav ul li a {
         margin-right: 1em;
         margin-bottom: 1em;
         width: calc(100% / 3 * 2);
-    }
-
-    #photos h2 {
-        font-size: 85%;
     }
 
     #sidebar {
